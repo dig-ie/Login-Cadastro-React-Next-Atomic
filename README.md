@@ -1,6 +1,6 @@
 ## 🔐 Autenticação – Arquitetura Client-Side (React/Next + Atomic Design)
 
-Este módulo de autenticação foi implementado utilizando **React/Next Client-Side**,
+Este módulo de autenticação foi implementado propositalmente utilizando **React/Next no Client-Side**,
 mantendo a lógica de autenticação dentro dos Organisms e preservando os Forms
 como moléculas controláveis.
 
