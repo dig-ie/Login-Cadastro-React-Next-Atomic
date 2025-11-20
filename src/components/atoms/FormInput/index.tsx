@@ -9,10 +9,11 @@ const input = tv({
     bg-secondaryText
     px-3 py-2
     text-sm
-    placeholder-gray-400
+    placeholder-black!
+    text-black
     focus:outline-none
     focus:ring-1 focus:ring-primary
-    transition opacity-35 min-h-[52px]
+    transition opacity-60 min-h-[52px]
   `,
   variants: {
     intent: {

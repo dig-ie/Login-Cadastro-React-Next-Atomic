@@ -10,6 +10,7 @@ const cardSurface = tv({
       2: "p-2",
       4: "p-4",
       6: "p-6",
+      8: "p-8",
     },
     variant: {
       default: "",
