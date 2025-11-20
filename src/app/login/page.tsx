@@ -8,13 +8,14 @@ export default function Login() {
   return (
     <AuthPageTemplate title="Login">
       <ApiWarmupModal />
+
+      <LoginCard className="h-full w-full max-w-[300px] self-center lg:max-w-[500px] max-h-[400px]" />
       <CardSurface
-        className="text-left max-w-[325px] max-h-[400px] overflow-y-auto scrollbar-none"
+        className="text-left max-w-[300px] max-h-[400px] overflow-y-auto scrollbar-none self-center"
         p={8}
       >
-        <h1 className="text-lg text-foreground font-medium leading-relaxed my-2 pl-[-16px]">
-          Criei este módulo de autenticação Full Stack (React/Next e NestJS) com
-          os seguintes tratamentos e retornos:
+        <h1 className="text-md text-foreground font-bold leading-relaxed my-2 pl-[-16px]">
+          Full Stack (React/Next integrado ao back-end NestJS + PostgreSQL)
         </h1>
         <ul className="text-left list-disc">
           <li>
@@ -43,7 +44,6 @@ export default function Login() {
           </li>
         </ul>
       </CardSurface>
-      <LoginCard className="h-full w-full max-w-[500px] max-h-[400px]" />
       <br />
       <br />
     </AuthPageTemplate>
