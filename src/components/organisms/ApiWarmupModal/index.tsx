@@ -48,16 +48,21 @@ export function ApiWarmupModal({
               <Loader2 className="animate-spin w-10 h-10 text-primaryGreen" />
               <p className="text-sm text-foreground font-medium leading-relaxed">
                 Inicializando a API/Back-end que fiz para este módulo de
-                autenticação, pois ela está hospedada em uma instância gratuita
-                do Render.com usando Docker.
+                autenticação, pois ela está rodando em uma instância gratuita do
+                Render.com usando Docker.
                 <br />
                 <br />
                 Como é gratuita, o Render.com possui um{" "}
-                <strong>cold start/início lento</strong> quando fica muito tempo
-                sem uso.
+                <strong>
+                  Cold start / Início lento de{" "}
+                  <span className="text-alertColor">50 segundos</span>
+                </strong>{" "}
+                na <strong> primeira vez </strong> após muito tempo sem uso.
                 <br />
                 <br />
-                Por favor, aguarde enquanto o Render.com acorda a API…
+                <span className="text-green-700">
+                  Por favor, aguarde enquanto o Render.com acorda a API…
+                </span>
               </p>
             </>
           ) : (
