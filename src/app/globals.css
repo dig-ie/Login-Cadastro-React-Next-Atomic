@@ -7,25 +7,27 @@
 }
 
 @theme inline {
-  /* BRAND (nomes antigos, cores modernas) */
-  --color-primary: #7b2cbf; /* Primária roxa, usada em botões/links principais */
-  --color-secondary: #5a1991; /* Variante mais escura da primária (hover, foco) */
-  --color-secondaryColor: #f3f0ff; /* Tons suaves de roxo p/ backgrounds sutis */
+  --color-primary: #7b2cbf;
+  --color-secondary: #5a1991;
+  --color-secondaryColor: #f3f0ff;
+  --color-alertColor: #eab308;
+  --color-alertError: #ef4444;
+  --color-alertSucess: #22c55e;
+  --color-lightBackground: #f7f7f9;
+  --color-darkBackground: #e5e3f3;
+  --color-secondaryBackground: #ffffff;
+  --color-darkText: #222222;
+  --color-secondaryText: #6b7280;
+  --color-linkBlue: #225991;
+}
 
-  /* FEEDBACK */
-  --color-alertColor: #eab308; /* Âmbar p/ avisos */
-  --color-alertError: #ef4444; /* Vermelho moderno */
-  --color-alertSucess: #22c55e; /* Verde de sucesso */
+@layer utilities {
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
 
-  /* BACKGROUNDS – TEMA LIGHT */
-  --color-lightBackground: #f7f7f9; /* Fundo principal da página (cinza bem claro) */
-  --color-darkBackground: #e5e3f3; /* Seções destacadas, ainda claro (ex: headers, boxes) */
-  --color-secondaryBackground: #ffffff; /* Cards, inputs, containers brancos */
-
-  /* TEXTOS – TEMA LIGHT */
-  --color-darkText: #222222; /* Texto principal: escuro, alta legibilidade */
-  --color-secondaryText: #6b7280; /* Texto secundário/descrições (cinza médio) */
-
-  /* LINKS / AÇÕES */
-  --color-linkBlue: #225991; /* Azul de link / ações secundárias */
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
