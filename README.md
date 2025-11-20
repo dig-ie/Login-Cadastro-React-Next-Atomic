@@ -4,6 +4,8 @@ Este módulo de autenticação foi implementado propositalmente utilizando **Rea
 mantendo a lógica de autenticação dentro dos Organisms e preservando os Forms
 como moléculas controláveis.
 
+![alt text](public/images/login-mobile.png)
+
 ### 🎯 Razão da Escolha (Foco em React + Componentização)
 
 A decisão por iniciar com um fluxo totalmente **Client-Side** foi intencional, não optando pelo fluxo Server side com Server Actions do Next no momento,
