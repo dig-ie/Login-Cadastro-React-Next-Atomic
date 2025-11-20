@@ -4,8 +4,8 @@ Este módulo de autenticação foi implementado propositalmente utilizando **Rea
 mantendo a lógica de autenticação dentro dos Organisms e preservando os Forms
 como moléculas controláveis.
 
-![Login desktop](public/images/login-mobile.png)
-![Login mobile](public/images/login-desktop.png)
+![Login desktop](public/images/login-desktop.png)
+![Login mobile](public/images/login-mobile.png)
 
 ### 🎯 Razão da Escolha (Foco em React + Componentização)
 
